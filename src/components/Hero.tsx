@@ -30,12 +30,16 @@ export default function Hero() {
                 fill="#06143D"
               />
             </svg>
-            Watch More
+            Watch Video
           </button>
         </div>
       </div>
-      <div className=" w-full max-w-full flex justify-center overflow-hidden">
-        <img src={hero_img} alt="" className="aspect-auto w-full" />
+      <div className=" w-full max-w-full flex p-10 justify-center overflow-hidden">
+        <img
+          src={hero_img}
+          alt=""
+          className="aspect-auto w-[400px] h-[400px]"
+        />
       </div>
     </div>
   );

@@ -8,7 +8,9 @@ function App() {
       <Navbar />
       <main className="w-full">
         <Hero />
-        <ChatBot />
+        <div className="fixed -right-5">
+          <ChatBot />
+        </div>
       </main>
     </div>
   );
